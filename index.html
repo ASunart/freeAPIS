@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+    <link rel="stylesheet" href="styles.css"/>
+    
+</head>
+<body>
+    
+    <section id="container">
+    <h1>Choose what you want to see!</h1>
+
+    <div id="apis">
+    <div id="factText"></div>
+    <div id="dogImage"></div>
+    <div id="usPopu"></div>
+    <div id="bitPrice"></div>
+    <div id="randomUser"></div>
+    </div>
+
+    <div id="btns">
+    <button type="submit" id="fact">Random cat fact</button>
+    <button type="submit" id="dog">Random dog</button>
+    <button type="submit" id="us">US Population</button>
+    <button type="submit" id="bitcoin">Bitcoin price</button>
+    <button type="submit" id="user">Random user</button>
+    <button onClick="window.location.reload();" id="res">Restart</button>
+    </div>
+    </section>
+    <script src="Controller.js" type="module"></script>
+</body>
+</html>
